@@ -1,33 +1,112 @@
-# GeoPandas Geospatial Visualization
+<h1 align="center">🌍 GeoPandas Geospatial Visualization</h1>
 
-This project loads a GeoJSON dataset from a public URL with GeoPandas, prints the first few rows, and plots the data with Matplotlib.
+<p align="center">
+  📊 A simple yet powerful geospatial visualization project using <strong>GeoPandas</strong> and <strong>Matplotlib</strong>.
+</p>
 
-## Requirements
+<p align="center">
+  This project demonstrates how to load, explore, and visualize GeoJSON data from a public source using Python.
+</p>
 
-- Python 3.10+
-- GeoPandas
-- Matplotlib
+---
 
-## Setup
+## 🚀 Live Overview
 
-```powershell
+✨ This project:
+
+* Loads a GeoJSON dataset from a public URL
+* Displays the first few rows of the dataset
+* Visualizes geospatial data on a map
+
+---
+
+## 🛠️ Tech Stack
+
+**Core Technologies:**
+
+* 🐍 Python 3.10+
+* 📍 GeoPandas
+* 📈 Matplotlib
+
+---
+
+## ✨ Features
+
+✅ Load GeoJSON data from an online source
+✅ Data preview using `.head()`
+✅ Clean and simple map visualization
+✅ Beginner-friendly structure
+✅ Lightweight and fast execution
+
+---
+
+## 📦 Requirements
+
+Make sure you have the following installed:
+
+* Python 3.10 or higher
+* Required Python libraries (GeoPandas, Matplotlib)
+
+---
+
+## ⚙️ Setup
+
+Install dependencies using:
+
+```bash
 py -m pip install -r requirements.txt
 ```
 
-If `python` is available on your machine instead of `py`, you can use:
+If `py` is not available, use:
 
-```powershell
+```bash
 python -m pip install -r requirements.txt
 ```
 
-## Run
+---
 
-```powershell
+## ▶️ Run the Project
+
+```bash
 py main.py
 ```
 
-The script will:
+---
 
-- load a public GeoJSON dataset
-- print the first five rows
-- display a map with a title
+## 📊 Output
+
+When you run the script, it will:
+
+* 📥 Load a public GeoJSON dataset
+* 📄 Print the first 5 rows in the console
+* 🗺️ Display a geospatial map with a title
+
+---
+
+## 📁 Project Structure
+
+```bash
+.
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🎯 Use Case
+
+This project is useful for:
+
+* Beginners learning geospatial analysis
+* Data visualization practice
+* Understanding GeoJSON handling in Python
+* Quick prototyping of map-based insights
+
+---
+
+## ⭐ Support
+
+If you found this helpful, consider giving it a ⭐ on GitHub!
+
+---
